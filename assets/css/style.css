@@ -1,14 +1,4 @@
-/**
-* Template Name: Siimple
-* Template URL: https://bootstrapmade.com/free-bootstrap-landing-page/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -16,11 +6,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #fd680e;
+  color: #af886f;
 }
 
 a:hover {
-  color: #ff8f4c;
+  color: #8b6b57;
   text-decoration: none;
 }
 
@@ -200,7 +190,7 @@ h6,
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #884922;
+  color: #775c4b;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -216,12 +206,12 @@ h6,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fd680e;
+  color: #af886f;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #fd680e;
+  background: #8a6b57;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -231,7 +221,7 @@ h6,
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #fd7827;
+  background: rgb(139, 66, 21);
 }
 
 .navbar .dropdown ul {
@@ -268,7 +258,7 @@ h6,
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #fd680e;
+  color: #af886f;
 }
 
 .navbar .dropdown:hover>ul {
@@ -402,7 +392,7 @@ h6,
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #fd680e;
+  color: #af886f;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -414,9 +404,10 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 700px;
   background: url("../img/elephant.jpg") center center;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   margin-top: -80px;
   z-index: 9;
@@ -454,7 +445,7 @@ h6,
 #hero .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #af886f;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -522,7 +513,7 @@ h6,
   margin: 10px;
   border: none;
   color: #fff;
-  background: #fd680e;
+  background: #af886f;
 }
 
 #hero .php-email-form button[type=submit]:hover {
@@ -582,7 +573,7 @@ section {
   display: block;
   width: 80px;
   height: 1px;
-  background: #fd680e;
+  background: #af886f;
   bottom: 0;
   left: calc(50% - 40px);
 }
@@ -613,7 +604,7 @@ section {
 .about ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #fd680e;
+  color: #2c1709;
 }
 
 .about p:last-child {
@@ -646,7 +637,7 @@ section {
   height: 64px;
   padding-top: 10px;
   text-align: center;
-  background-color: #fd680e;
+  background-color: #af886f;
   border-radius: 50%;
   text-align: center;
   border: 4px solid #fff;
@@ -668,7 +659,7 @@ section {
 }
 
 .why-us .card-title a:hover {
-  color: #fd680e;
+  color: #8d6f5d;
 }
 
 .why-us .card-text {
@@ -677,7 +668,7 @@ section {
 
 .why-us .card:hover .card-icon i {
   background: #fff;
-  color: #fd680e;
+  color: #534339;
 }
 
 @media (max-width: 1024px) {
@@ -707,7 +698,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #fd680e;
+  font-family: #1d1815;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -736,7 +727,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #fd680e;
+  color: #af886f;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -756,7 +747,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #fd680e;
+  color: #af886f;
   float: left;
 }
 
@@ -774,7 +765,7 @@ section {
 .contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5a2c10;
+  background: #af886f;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -786,14 +777,14 @@ section {
 }
 
 .contact .social-links a:hover {
-  background: #fd680e;
+  background: #7c5034;
   color: #fff;
 }
 
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #af886f;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -840,11 +831,11 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #fd680e;
+  border-color: #dd9c74;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #fd680e;
+  background: #af886f;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -852,7 +843,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #fd8841;
+  background: #6b452d;
 }
 
 @media (max-width: 768px) {
@@ -894,7 +885,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #2f1708;
+  background: #6b635e;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
